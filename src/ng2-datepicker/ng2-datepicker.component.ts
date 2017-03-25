@@ -389,6 +389,7 @@ export class DatePickerComponent implements ControlValueAccessor, OnInit {
 
   clear() {
     this.value = { day: null, month: null, year: null, momentObj: null, formatted: null };
+    this.outputEvents.emit({type: 'default', data: 'cleared'});
     this.close();
   }
 
