@@ -1,38 +1,65 @@
 {
-  "name": "ng2-datepicker",
-  "version": "1.8.2",
-  "license": "MIT",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "npm run css && ./node_modules/.bin/ngc -p tsconfig.build.json && rollup -c",
-    "build:cli": "ng build --aot",
-    "build:lib": "nglb --rootDir src/ng2-datepicker --outDir lib-dist",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "clean": "rimraf node_modules dist dist-lib",
-    "clean:install": "npm run clean && npm install",
-    "prepublish": "npm run build:lib"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jkuri/ng2-datepicker.git"
-  },
-  "keywords": [
-    "angular",
-    "angular2",
-    "datepicker",
-    "date",
-    "component"
+  "_args": [
+    [
+      {
+        "raw": "ng2-datepicker@git+https://github.com/aiesecinternational/ng2-datepicker.git#master",
+        "scope": null,
+        "escapedName": "ng2-datepicker",
+        "name": "ng2-datepicker",
+        "rawSpec": "git+https://github.com/aiesecinternational/ng2-datepicker.git#master",
+        "spec": "git+https://github.com/aiesecinternational/ng2-datepicker.git#master",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:aiesecinternational/ng2-datepicker.git#master",
+          "sshUrl": "git+ssh://git@github.com/aiesecinternational/ng2-datepicker.git#master",
+          "httpsUrl": "git+https://github.com/aiesecinternational/ng2-datepicker.git#master",
+          "gitUrl": "git://github.com/aiesecinternational/ng2-datepicker.git#master",
+          "shortcut": "github:aiesecinternational/ng2-datepicker#master",
+          "directUrl": "https://raw.githubusercontent.com/aiesecinternational/ng2-datepicker/master/package.json"
+        }
+      },
+      "/Users/karthickpriyadarshan/GitHub/yop-v3"
+    ]
   ],
-  "author": "Jan Kuri <jkuri88@gmail.com>",
+  "_from": "git+https://github.com/aiesecinternational/ng2-datepicker.git#master",
+  "_id": "ng2-datepicker@1.8.2",
+  "_inCache": true,
+  "_location": "/ng2-datepicker",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ng2-datepicker@git+https://github.com/aiesecinternational/ng2-datepicker.git#master",
+    "scope": null,
+    "escapedName": "ng2-datepicker",
+    "name": "ng2-datepicker",
+    "rawSpec": "git+https://github.com/aiesecinternational/ng2-datepicker.git#master",
+    "spec": "git+https://github.com/aiesecinternational/ng2-datepicker.git#master",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:aiesecinternational/ng2-datepicker.git#master",
+      "sshUrl": "git+ssh://git@github.com/aiesecinternational/ng2-datepicker.git#master",
+      "httpsUrl": "git+https://github.com/aiesecinternational/ng2-datepicker.git#master",
+      "gitUrl": "git://github.com/aiesecinternational/ng2-datepicker.git#master",
+      "shortcut": "github:aiesecinternational/ng2-datepicker#master",
+      "directUrl": "https://raw.githubusercontent.com/aiesecinternational/ng2-datepicker/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/aiesecinternational/ng2-datepicker.git#f99cb066fcdb91ac37e7409355b47d6a4db79f93",
+  "_shasum": "8f4caf80395586a0777c880a210c4e02ca04077f",
+  "_shrinkwrap": null,
+  "_spec": "ng2-datepicker@git+https://github.com/aiesecinternational/ng2-datepicker.git#master",
+  "_where": "/Users/karthickpriyadarshan/GitHub/yop-v3",
+  "author": {
+    "name": "Jan Kuri",
+    "email": "jkuri88@gmail.com"
+  },
   "bugs": {
     "url": "https://github.com/jkuri/ng2-datepicker/issues"
   },
-  "homepage": "https://github.com/jkuri/ng2-datepicker#readme",
-  "main": "./lib-dist/ng2-datepicker.module.js",
-  "types": "./lib-dist/ng2-datepicker.module.d.ts",
   "dependencies": {
     "@angular/common": "^2.4.0",
     "@angular/compiler": "^2.4.0",
@@ -48,6 +75,7 @@
     "rxjs": "^5.1.0",
     "zone.js": "^0.7.6"
   },
+  "description": "Angular2 Datepicker Component",
   "devDependencies": {
     "@angular/cli": "1.0.0-rc.0",
     "@angular/compiler-cli": "^2.4.0",
@@ -68,6 +96,40 @@
     "rimraf": "^2.6.1",
     "ts-node": "~2.0.0",
     "tslint": "~4.4.2",
-    "typescript": "~2.0.0"
-  }
+    "typescript": "^2.0.0"
+  },
+  "gitHead": "f99cb066fcdb91ac37e7409355b47d6a4db79f93",
+  "homepage": "https://github.com/jkuri/ng2-datepicker#readme",
+  "keywords": [
+    "angular",
+    "angular2",
+    "datepicker",
+    "date",
+    "component"
+  ],
+  "license": "MIT",
+  "main": "./lib-dist/ng2-datepicker.module.js",
+  "name": "ng2-datepicker",
+  "optionalDependencies": {},
+  "readme": "# ng2-datepicker\nAngular2 Datepicker Component\n\n***ng2-datepicker*** is a datepicker component for Angular2.\n\n## Demo\n\n[http://ng2-datepicker.jankuri.com](http://ng2-datepicker.jankuri.com)\n\nLooking for a date range picker? Check this one: [http://ng-daterangepicker.jankuri.com](http://ng-daterangepicker.jankuri.com)\n\n## Installation:\n\nInstall ng2-datepicker via `npm`\n\n````shell\nnpm install ng2-datepicker --save\n````\n\n## Integration\n\n```ts\n// app.module.ts\nimport { DatePickerModule } from 'ng2-datepicker';\n\n@NgModule({\n  ...\n  imports: [ DatePickerModule ]\n  ...\n})\nexport class AppModule { }\n\n// app.component.ts\nimport { Component } from '@angular/core';\nimport { DatePickerOptions, DateModel } from 'ng2-datepicker';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: 'app.component.html'\n})\nexport class AppComponent {\n  date: DateModel;\n  options: DatePickerOptions;\n\n  constructor() {\n    this.options = new DatePickerOptions();\n  }\n}\n\n// app.component.html\n<ng2-datepicker [options]=\"options\" [(ngModel)]=\"date\"></ng2-datepicker>\n```\n\nFor more info about options please see [this](https://github.com/jkuri/ng2-datepicker/blob/master/src/ng2-datepicker/ng2-datepicker.component.ts#L41-L53).\n\n## Run Included Demo\n\n```shell\ngit clone https://github.com/jkuri/ng2-datepicker.git --depth 1\ncd ng2-datepicker\nnpm install\nnpm start\n```\n\n## AoT Library Build\n\n```shell\nnpm run build:lib\n```\n\n## Licence\n\nThis project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkuri/ng2-datepicker.git"
+  },
+  "scripts": {
+    "build": "npm run css && ./node_modules/.bin/ngc -p tsconfig.build.json && rollup -c",
+    "build:cli": "ng build --aot",
+    "build:lib": "nglb --rootDir src/ng2-datepicker --outDir lib-dist",
+    "clean": "rimraf node_modules dist dist-lib",
+    "clean:install": "npm run clean && npm install",
+    "e2e": "ng e2e",
+    "lint": "ng lint",
+    "ng": "ng",
+    "prepublish": "npm run build:lib",
+    "start": "ng serve",
+    "test": "ng test"
+  },
+  "types": "./lib-dist/ng2-datepicker.module.d.ts",
+  "version": "1.8.2"
 }
